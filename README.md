@@ -10,4 +10,5 @@ This repository contains a few examples of usages of Selenium that I keep for my
 
 [The reference of python bindings for Selenium](https://selenium-python.readthedocs.io/)  
 [A good tutorial](https://www.techbeamers.com/selenium-webdriver-python-tutorial/)  
+[A good, simple overview of xPaths](https://www.w3schools.com/xml/xpath_intro.asp)  
 
