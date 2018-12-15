@@ -22,9 +22,10 @@ searchField = driver.find_element_by_id("search_form_input_homepage")
 searchField.send_keys("Does that work?")
 searchField.submit()
 
-#Required otherwise no results are found
-#because they haven't had the time to be displayed.
-#Note: results seem to be displayed by javascript (?)
+# Count how many results are displayed
+# Note: Call to time.sleep() required otherwise no results are found
+# because they haven't had the time to be displayed.
+# Note: results seem to be displayed using AJAX or similar (i.e. non-static)
 print("Waiting 5 seconds for the results to show…")
 time.sleep(5)
 resultsLinks = driver.find_elements_by_class_name("result__a")
